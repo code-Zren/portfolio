@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background-image: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* opera 11.10+ */
+  background-image: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* ie 10+ */
+  background-image: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* global 92%+ browsers support */
+  background-image: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+}
+
+/* Navbar */
+.header {
+  position: relative;
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 25px;
+}
+
+.nav__link-home {
+  color: aqua !important;
+}
+
+.nav-link:hover {
+  color: aqua !important;
+}
+
+/* Landing Section */
+.landing__profile-img {
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.landing__name {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.landing__dev {
+  color: aqua;
+  font-size: 2rem;
+}
+
+/* Projects Section */
+.projects__title {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.projects__title-name {
+  color: aqua;
+}
+
+.card {
+  background-color: #031b34;
+}
+
+.card__title {
+  font-weight: bold;
+  color: aqua;
+}
+
+.card__1:hover,
+.card__2:hover,
+.card__3:hover {
+  border-color: aqua !important;
+}
+
+/* Tools Section */
+.tools__title {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: aqua;
+}
+
+.tools__subtitle {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.tools__table {
+  border: 3px solid aqua;
+  border-radius: 25px;
+  background-color: #031b34;
+}
+
+.tools__table:hover {
+  background-color: rgb(108, 117, 125);
+}
+
+.tools__logo:hover {
+  width: 90%;
+}
+
+/* Contact Section */
+.contact__title {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: aqua;
+}
+
+.contact__input {
+  background-color: #031b34;
+}
+
+.contact__btn {
+  font-weight: 600;
+  padding: 0.8rem;
+  border-radius: 25px;
+  border: 2px solid aqua;
+  color: aqua;
+}
+
+.contact__btn:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #031b34;
+  text-align: center;
+  height: 50px;
+  padding-top: 1rem;
+}
